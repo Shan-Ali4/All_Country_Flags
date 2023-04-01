@@ -1,7 +1,8 @@
 const API = "https://restcountries.com/v3.1/all";
 let container = document.getElementById("container");
 let searchForm = document.querySelector("form");
-const total=document.getElementById("total")
+const total=document.getElementById("total");;
+const result=document.getElementById("result")
 let fetchedData = [];
 asyncFetch();
 
@@ -19,6 +20,7 @@ searchForm.addEventListener("submit", (e) => {
       return false;
     }
   });
+  result.innerText=`Result:- ${filtered.length}`
   Display(filtered);
 });
 
