@@ -2,7 +2,7 @@
 
 This project is for Searching All Country Flags Online.
 --
-https://fascinating-belekoy-013402.netlify.app/
+https://starlit-haupia-3325a0.netlify.app/
 
 ----
 ## Tech Stack 
